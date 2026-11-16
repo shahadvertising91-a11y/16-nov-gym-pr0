@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Forge notification palette, light system theme -->
+<resources>
+    <color name="forge_notif_accent">#8CC400</color>
+    <color name="forge_notif_accent_text">#4B6600</color>
+    <color name="forge_notif_track">#1F000000</color>
+    <color name="forge_notif_divider">#1F000000</color>
+</resources>

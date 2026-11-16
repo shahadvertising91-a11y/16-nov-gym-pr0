@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goal ring (expanded notification): starts at 12 o'clock and fills clockwise -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:innerRadiusRatio="2.5"
+            android:shape="ring"
+            android:thicknessRatio="10.5"
+            android:useLevel="false">
+            <solid android:color="@color/forge_notif_track" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="-90"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="-90">
+            <shape
+                android:innerRadiusRatio="2.5"
+                android:shape="ring"
+                android:thicknessRatio="10.5"
+                android:useLevel="true">
+                <solid android:color="@color/forge_notif_accent" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
